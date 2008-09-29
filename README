@@ -1,0 +1,9 @@
+tmpfs utilities
+
+1. make install
+2. create /etc/sysconfig/tmpfs ( see e sample in etc/sysconfig )
+3. create dirs as in /etc/sysconfig/tmpfs
+4. add a line to /etc/fstab which is similar  to
+none /home/robert/${your_ramdisk} tmpfs defaults,user,uid=${your_user},gid=users,size=512M,mode=755 0 0
+
+for a 512M ramdisk
