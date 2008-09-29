@@ -1,0 +1,2 @@
+TMPFS_LOCATION=/home/robert/ramdisk/
+TMPFS_BACKUP_LOCATION=/home/robert/ramdisk-backup/
